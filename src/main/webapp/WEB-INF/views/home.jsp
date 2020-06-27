@@ -132,7 +132,7 @@
      
      
 <!-- 
-	Enviroment 객체를 이용한 외부파일 참조 절차
+	Environment 객체를 이용한 외부파일 참조 절차
 	1. 요청명을 결정한다. 
 		: enviroment/main1
 	2. 컨트롤러 생성 및 매핑

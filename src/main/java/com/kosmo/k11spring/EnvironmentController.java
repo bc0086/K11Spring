@@ -26,9 +26,7 @@ public class EnvironmentController {
 	@RequestMapping("/environment/main1")
 	public String main1(Model model) {
 		
-		/*
-		 	1. 스프링 컨택스트 생성
-		 */
+		// 1. 스프링 컨택스트 생성
 		ConfigurableApplicationContext ctx = new GenericXmlApplicationContext();
 		
 		// 2. Environment 객체를 생성
