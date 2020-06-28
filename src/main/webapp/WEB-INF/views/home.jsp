@@ -11,8 +11,8 @@
 	<h2>스프링 MVC 시작하기</h2>
 	<!-- 
 		Spring MVC에서는 이미지와 같은 리소스를 사용하기 위해
-		별도로 resources폴더를 제공한다. 해당 폴더의 설정은
-		servlet-context.xml에서 한다.
+		별도로 resources폴더를 제공한다. 
+		해당 폴더의 설정은 servlet-context.xml에서 한다.
 	 -->
 	<h3>resources 폴더 사용하기</h3>
 	
