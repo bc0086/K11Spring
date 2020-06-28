@@ -101,8 +101,7 @@ public class FileuploadController {
 				System.out.println("mfile="+ mfile);
 				
 				// 한글깨짐방지 처리 후 전송된 파일명을 가져옴.
-				String originalName=
-					new String(mfile.getOriginalFilename().getBytes(),"UTF-8");
+				String originalName = new String(mfile.getOriginalFilename().getBytes(),"UTF-8");
 				
 				// 서버로 전송된 파일이 없다면 while문의 처음으로 돌아간다.
 				if("".equals(originalName)) {
@@ -169,6 +168,7 @@ public class FileuploadController {
 		return "06FileUpload/uploadList";
 	}
 	
+	// 파일 다운로드
 	@RequestMapping("/fileUpload/download.do")
 	public ModelAndView download(HttpServletRequest req, HttpServletResponse resp) throws Exception {
 		
@@ -188,6 +188,5 @@ public class FileuploadController {
 		mv.addObject("oriFileName", oriFileName);
 		return mv;			
 	}
-		
 		
 }
