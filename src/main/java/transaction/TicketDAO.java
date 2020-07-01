@@ -76,7 +76,7 @@ public class TicketDAO {
 					PreparedStatement psmt = con.prepareStatement(query);
 					psmt.setString(1, dto.getCustomerId());
 					psmt.setInt(2, dto.getAmount()); 
-					return psmt;
+					return psmt; 
 				}
 			});
 			/*
